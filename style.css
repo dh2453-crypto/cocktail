@@ -1,0 +1,201 @@
+body {
+    background-color: #f5f7fa;
+    color: #212529;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+
+/* Navigation */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+/* Home page */
+
+.hero {
+    text-align: center;
+    padding: 70px 20px 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero .lead {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    color: #666;
+}
+
+
+/* Search box */
+
+.search-box {
+    background-color: white;
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.search-box label {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+
+.or {
+    margin: 25px 0;
+    color: #777;
+    font-weight: bold;
+}
+
+.random-button {
+    width: 100%;
+}
+
+
+/* Features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto 70px;
+    max-width: 1000px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+}
+
+
+/* Results */
+
+.results-header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.results-header h1 {
+    font-weight: bold;
+}
+
+
+/* Cocktail card */
+
+.cocktail-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cocktail-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.cocktail-content {
+    padding: 25px;
+}
+
+.cocktail-content h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cocktail-content h3 {
+    font-size: 1.25rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+/* Badges */
+
+.badges {
+    margin-bottom: 20px;
+}
+
+.badges .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Ingredients */
+
+.ingredients {
+    padding-left: 20px;
+}
+
+.ingredients li {
+    margin-bottom: 7px;
+}
+
+
+/* Instructions */
+
+.instructions {
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .features {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cocktail-image {
+        height: 280px;
+    }
+
+}
